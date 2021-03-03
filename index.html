@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meld hier je recept aan voor op onze receptenwebsite</title>
+</head>
+
+<body>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Email: <input type="email" name="email" /></label>
+        </p>
+        <label>Telefoonnummer: <input type="tel" value=(tel) name="tel" /></label>
+        </p>
+        <p>
+            <label>Leeftijd: <input type="number" name="number" /></label>
+        </p>
+        <label>Geboortedatum: <input type="date" name="date" /></label>
+        </p>
+        <p>
+            <label>Gender:
+                <input type="radio" name="man" value="man">
+                <label for="gender">Man</label>
+                <input type="radio" name="vrouw" value="vrouw">
+                <label for="gender">Vrouw</label>
+                <input type="radio" name="genderneutraal" value="genderneutraal">
+                <label for="gender">Genderneutraal</label>
+                <input type="radio" name="zeg ik liever niet" value="zeg ik liever niet">
+                <label for="gender">Zeg ik liever niet</label>
+        </p>
+        <p>
+            <label>Favorite cuisine:
+                <input type="checkbox" name="frans" value="cuisine">
+                <label for="favorite cuisine">Frans</label>
+                <input type="checkbox" name="spaans" value="cuisine">
+                <label for="favorite cuisine">Spaans</label>
+                <input type="checkbox" name="italiaans" value="cuisine">
+                <label for="favorite cuisine">Italiaans</label>
+                <input type="checkbox" name="arabisch" value="cuisine">
+                <label for="favorite cuisine">Arabisch</label>
+        </p>
+        <label>
+            Favoriete kleur van short: <input type="color" name="colorpicker" value="#ffa500"></label>
+        </p>
+        <p>
+            <label>Biografie: <textarea name="message" rows="10" cols="30"></textarea></label>
+        </p>
+        <p> <label for="upload">Upload hier je laatste recept:</label>
+            <input type="file" name="avatar">
+        </p>
+        <p>
+            <button type="reset">Maak formulier leeg</button>
+        </p>
+        <p>
+            <button type="submit">Verzend</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
